@@ -1,0 +1,662 @@
+*{
+    /*Reset*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    
+    text-align: center;
+    font-size: 1em;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: 60%;
+    bottom: 0%;
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+@media screen and (min-width:350px){
+    .genlogo{
+        display: none;
+    }
+    .hnavi{
+        background-color: rgb(0, 0, 0);
+        display: flex;
+
+    }
+
+    .imgindexi a img{
+        margin-top: 15%;
+    }
+
+    .hnavmenui {
+        margin-right: 2%;
+        
+    }
+
+    .hnavmenui ul{
+        display: flex;
+        gap: 2rem;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        
+        
+
+        
+    }
+
+    .hnavmenui ul li{
+        list-style: none;
+    }
+
+    .hnavmenui ul li a{
+        color: aliceblue;
+        text-decoration: none;
+        font-size: 1.1rem;
+        
+        
+
+    }
+
+
+
+    .hnav {
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hnavmenu{
+        margin-right: 5%;
+    }
+
+
+    .hnavmenu ul li a{
+        color: aliceblue;
+        text-decoration: none;
+        font-size: 1.1rem;
+        
+        
+        
+
+    }
+
+    .hnavmenu ul{
+        display: flex;
+        gap: 1rem;
+        margin-top: 3%;
+    }
+    .imgindex{
+        margin-top: 2%;
+    }
+
+
+
+    .genlogo img{
+        background-color: black;
+        width: 80%;
+        
+        
+    }
+
+    .videog{
+        width: 100%;
+    }
+
+    .index h1{
+        text-align: center;
+    }
+    .texind {
+        text-align: center;
+        font-weight: 500;
+        margin-bottom: 15%;
+        
+    }
+    .promocode{
+        width: 100%;
+    }
+
+    .imgshop a img{
+        width: 80%;
+    }
+    /*CONTACTANOS*//*CONTACTANOS*//*CONTACTANOS*//*CONTACTANOS*//*CONTACTANOS*/
+
+    .cont{
+        text-align: center;
+        margin-top: 5%;
+        font-size: 2em;
+        font-family: sans-serif;
+    }
+
+    .red{
+        display: flex;
+        gap: 4rem;
+        margin-top: 5%;
+        margin-bottom: 10%;
+        justify-content: center;
+        list-style: none;
+    }
+    .red {
+        display: flex;
+        justify-content: center;
+        gap: 5%;
+        margin-bottom: 20%;
+    }
+    .red li {
+        list-style: none;
+        text-decoration: none;
+        
+        padding: 0.5%;
+        margin: 1%;
+    }
+    
+    .red .fac:hover{
+        
+        border: 2px solid rgba(0, 0, 255, 0.212);
+        border-radius: 5px;
+        
+    
+    }
+    .red .you:hover{
+        
+        border: 2px solid rgba(255, 0, 0, 0.178);
+        border-radius: 5px;
+        
+    
+    }
+    .red .ins:hover{
+        
+        border: 2px solid rgba(162, 0, 255, 0.336);
+        border-radius: 5px;
+    }
+
+    .formcntato{
+            background-color: rgb(94, 94, 94);
+            justify-content: center;
+            margin-left: 5%;
+            margin-right: 5%;
+            border-radius: 5px;
+        }
+        
+    .formcntato form h4{
+            color: white;
+            font-size: 1.5em;
+            font-family: sans-serif;
+            text-align: center;
+            margin-bottom: 2%;
+        }
+        
+    .formcntato form div{
+            text-align: center;
+            margin-bottom: 2%;
+
+        }
+        
+    
+
+    section form div input{
+            text-align: center;
+            margin-bottom: 0.5%;
+            border: 2px solid rgb(65, 65, 65);
+            padding-top: 0.2%;
+            padding-bottom: 0.2%;
+            font-family: sans-serif;
+            border-radius: 4px;
+        }
+        
+    section form .sure input{
+            margin: 1%;
+            padding-left: 1%;
+            padding-right: 1%;
+        }
+        
+    .map div{
+            justify-content: center;
+            text-align: center;
+        }
+        
+        
+    .map h1{
+            margin-top: 5%;
+            margin-bottom: 20%;
+            font-size: 2em;
+            font-family: sans-serif;
+        }
+        
+    .map div iframe{
+            border-radius: 5px;
+            width: 80%;
+            height: 50%;
+            
+        }
+
+
+/*CURSOS*//*CURSOS*//*CURSOS*//*CURSOS*//*CURSOS*//*CURSOS*//*CURSOS*//*CURSOS*//*CURSOS*/
+
+.vidpunt{
+    display: none;
+}
+
+.cursosimg {
+    display: grid;
+    
+    
+}
+
+
+
+.cursosimg div img{
+    width: 100%;
+}
+
+
+.cursostext {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+    
+    text-align: center;
+    grid-gap: 1rem;
+
+}
+.cursostext div{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.cutxpunt img:hover{
+    background-color: rgb(231, 231, 231);
+    box-shadow:  2px 2px 10px  rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+.cutxpunt img:hover{
+    background-color: rgb(231, 231, 231);
+    box-shadow:  2px 2px 10px  rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+
+
+.curs h1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+
+
+/*iseccion*//*iseccion*//*iseccion*//*iseccion*//*iseccion*//*iseccion*/
+.inicis h3{
+    text-align: center;
+    margin-top: 20%;
+    font-size: 3em;
+}
+.forminc {
+    background-color: rgb(97, 97, 97);
+    margin-top: 10%;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+}
+
+.forminc form{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1px;
+}
+
+.forminc form div a{
+    text-decoration: none;
+}
+
+.forminc p{
+    margin-top: 5%;
+    
+}
+
+.inicis {
+    text-align: center;
+    text-decoration: none;
+}
+.inicis div a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    
+}
+
+
+
+
+
+
+
+.forminc form div input:hover{
+    background-color: hwb(180 78% 0% / 0.795);
+
+}
+
+.bottin input{
+    background-color: rgb(136, 136, 136);
+}
+
+.inicis h3{
+    font-family: 4;
+    margin-top: 2%;
+}
+/*SHOT*//*SHOT*//*SHOT*//*SHOT*//*SHOT*//*SHOT*//*SHOT*//*SHOT*//*SHOT*/
+
+.bodyshop{
+    background-color: rgb(105, 105, 105);
+}
+.slidshop{
+    overflow: hidden;
+    
+    
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.1%;
+}
+
+.slidshop ul{
+    animation: slide 14s infinite alternate ease-in-out;
+    display: flex;
+    padding: 0%;
+    width: 400%;
+}
+
+.slidshop ul li{
+    list-style: none;
+    width: 100%;
+}
+
+.slidshop img{
+    width: 100%;
+}
+
+@keyframes slide {
+    0% {margin-left: 0%}
+    20% {margin-left: 0%}
+
+    25% {margin-left: -100%}
+    45% {margin-left: -100%}
+
+    50% {margin-left: -200%}
+    70% {margin-left: -200%}
+
+    75% {margin-left: -300%}
+    95% {margin-left: -300%}
+    
+}
+
+.itmshop div  {
+    margin-bottom: 25%;
+    background-color: rgb(243, 243, 243);
+    border-radius: 10px;
+    
+}
+.navmenu2 {
+    background-color: rgb(58, 58, 58);
+    margin-right: 40%;
+    border-radius: 20px;
+    margin-left: 5%;
+}
+
+.navmenu2 div ul li{
+    list-style: none;
+}
+.navmenu2 div ul li a{
+    text-decoration: none;
+    color: wheat;
+    font-size: 1rem;
+}
+
+.txcnc div img{
+    width: 100%;
+    border-radius: 5px;
+}
+.txcnc {
+    display: flex;
+    gap: 1rem;
+    margin: 5%;
+}
+.txshopp{
+    text-align: center;
+}
+}
+.txshopp a {
+    text-decoration: none; 
+    background-color: yellow;
+    font-size: 2rem;
+    font-weight: 700;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+.itmshop{
+    display: grid;
+    text-align: center;
+    margin: 5%;
+
+}
+.itmshop div{
+    background-color: rgb(165, 165, 165);
+}
+
+.itmshop div a img{
+    margin-top: 5%;
+    border-radius: 10px;
+    width: 70%;
+}
+
+.itmshop div p{
+    font-size: 1.4rem;
+}
+.price {
+    background-color: rgb(255, 80, 80);
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:600px){
+
+    
+
+    .itmshop div a img:hover{
+        border: 2px solid rgba(255, 0, 0, 0.322);
+    }
+
+
+
+    .cncimg{
+        display: none;
+    }
+    
+    .genlogo img{
+        background-color: black;
+        width: 60%;
+        margin-left: 5%;
+        margin-top: 2.5%;
+    }
+
+    .hnavi {
+        justify-content: space-between;        
+    }
+
+    .itmshop{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 1rem;
+    }
+
+    /*cursos*/
+
+
+
+    
+    .vidpunt {
+        display: inline;
+        width: 100%;
+        
+        
+    }
+
+    /*iniciar*/
+    .forminc div input{
+        width: 50%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+    
+
+
+}
+
+@media screen and (min-width:1280px){
+
+    .cursosimg div img{
+        width: 100%;
+    }
+    .cursosimg{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem;
+        margin-right: 15%;
+        margin-left: 15%;
+        margin-bottom: 10%;
+        margin-top: 10%;
+    }
+    .imgbla{
+        grid-column: span 2;
+    }
+
+
+    .cursosimg img{
+        width: 10%;
+        border-radius: 15px;
+    }
+
+    .vidpunt{
+        grid-column: span 2;
+    }
+
+    .imgani{
+        grid-column: span 1;
+        
+        
+    }
+    .imgpunt{
+        grid-column: span 1;
+    }
+
+    .cursostext{
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+
+
+    .cncimg{
+        display: inline;
+    }
+
+    .txcnc{
+        gap: 5%;
+
+    }
+
+    .itmshop {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        
+    }
+
+    .index h1 {
+        margin-top: 5%;
+    }
+
+    .texind{
+        margin-left: 20%;
+        margin-right: 20%;
+        text-align: center;
+    }
+
+    .texind p{
+        text-align: center;
+        font-size: 2rem;
+        margin-top: 10%;
+    }
+
+    .formcntato{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .textcont{
+        background-color: rgb(214, 214, 214);
+        border: 3px solid rgb(65, 65, 65);
+        border-radius: 5px;
+        width: 70%;
+    }
+
+    .map{
+        margin-left: 10%;
+        margin-right: 10%;
+        
+    }
+
+    /*registro*/
+    .selccsexo {
+        display: grid;
+        margin-left: 30%;
+        margin-right: 30%;
+        text-align: center;
+
+    }
+
+    /*Index*/
+    .hnavi {
+        justify-content: space-between;
+        
+    }
+
+    .hnavi div{
+        margin-right: 4.5%;
+    }
+    
+
+    
+
+}
